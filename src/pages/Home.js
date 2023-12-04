@@ -1,3 +1,4 @@
+import "../styles/Home.css";
 import React from "react";
 import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
