@@ -23,11 +23,11 @@ export const ProjectList = [
     image: Proj4,
   },
   {
-    name: "Minimal SQL application",
+    name: "Project time tracker",
     image: Proj5,
   },
   {
-    name: "Number Guessing Game",
+    name: "Number guessing game",
     image: Proj6,
   },
 ];
