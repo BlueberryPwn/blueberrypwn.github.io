@@ -11,8 +11,8 @@ function Home() {
         <h2>Hi, I'm Nshoan!</h2>
         <div className="prompt">
           <p>
-            Aspiring full stack developer looking to learn and create new
-            things!
+            Aspiring full stack developer looking to create, learn and solve new
+            problems.
           </p>
           <EmailIcon />
           <GitHubIcon />
