@@ -1,6 +1,7 @@
 import "../styles/Home.css";
 import React from "react";
-import EmailIcon from "@material-ui/icons/Email";
+import Tooltip from "@material-ui/core/Tooltip";
+import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
@@ -11,24 +12,27 @@ function Home() {
         <h2>Hi, I'm Nshoan!</h2>
         <div className="prompt">
           <p>
-            Aspiring full stack developer looking to create, learn and solve new
-            problems.
+            Aspiring full stack developer looking to create and learn new
+            things!
           </p>
-          <EmailIcon
-            onClick={(event) =>
-              (window.location.href = "mailto:nshoan99@gmail.com")
-            }
-          />
-          <GitHubIcon
-            onClick={(event) =>
-              window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
-            }
-          />
-          <LinkedInIcon
-            onClick={(event) =>
-              window.open("https://www.linkedin.com/in/nshoan-a-853878208/")
-            }
-          />
+          <Tooltip title="Visit my GitHub profile!">
+            <IconButton aria-label="visit">
+              <GitHubIcon
+                onClick={(event) =>
+                  window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
+                }
+              />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Visit my LinkedIn profile!">
+            <IconButton aria-label="visit">
+              <LinkedInIcon
+                onClick={(event) =>
+                  window.open("https://www.linkedin.com/in/nshoan-a-853878208/")
+                }
+              />
+            </IconButton>
+          </Tooltip>
         </div>
       </div>
       <div className="skills">

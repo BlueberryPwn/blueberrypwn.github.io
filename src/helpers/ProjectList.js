@@ -21,9 +21,9 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Movie-system",
   },
   {
-    name: "asynchronous car race",
+    name: "Asynchronous car race",
     image: Proj3,
-    imageDesc: "Car race",
+    imageDesc: "Asynchronous car race",
     skills: "C#",
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Biltavlingen",
   },

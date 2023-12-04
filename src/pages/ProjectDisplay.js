@@ -2,6 +2,8 @@ import "../styles/ProjectDisplay.css";
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
+import Tooltip from "@material-ui/core/Tooltip";
+import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 function ProjectDisplay() {
@@ -14,7 +16,11 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon onClick={(event) => window.open(project.link)} />
+      <Tooltip title="Visit the repository of this project!">
+        <IconButton aria-label="visit">
+          <GitHubIcon onClick={(event) => window.open(project.link)} />
+        </IconButton>
+      </Tooltip>
     </div>
   );
 }
