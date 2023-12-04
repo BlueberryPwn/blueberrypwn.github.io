@@ -9,25 +9,36 @@ export const ProjectList = [
   {
     name: "Anonymous forum",
     image: Proj1,
+    languages: "C#, CSS, HTML, SQL",
+    technologies: ".NET, MS SQL",
   },
   {
     name: "Movie database",
     image: Proj2,
+    languages: "C#, SQL",
+    technologies: ".NET, MS SQL",
   },
   {
     name: "Car race",
     image: Proj3,
+    languages: "C#",
+    technologies: ".NET",
   },
   {
     name: "Bank application",
     image: Proj4,
+    languages: "C#",
+    technologies: ".NET",
   },
   {
     name: "Project time tracker",
     image: Proj5,
+    languages: "C#, SQL",
+    technologies: ".NET, PostgreSQL",
   },
   {
     name: "Number guessing game",
     image: Proj6,
+    languages: "CSS, HTML, JavaScript",
   },
 ];
