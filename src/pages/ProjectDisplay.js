@@ -1,3 +1,4 @@
+import "../styles/ProjectDisplay.css";
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
