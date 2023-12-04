@@ -1,7 +1,17 @@
+import "../styles/Footer.css";
 import React from "react";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <div>
+        <GitHubIcon />
+        <LinkedInIcon />
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
