@@ -24,29 +24,7 @@
   height: auto;
   display: grid;
   gap: 5px;
-  padding: 20px;
-}
-
-label {
-  font-size: 15px;
-}
-
-input[type="text"],
-input[type="email"] {
-  height: 20px;
-}
-
-textarea {
-  width: 300px;
-  height: 150px;
-}
-
-@media only screen and (max-width: 600px) {
-  .form .description {
-    width: 50%;
-    margin: -35px;
-    font-size: 20px;
-  }
+  margin: 50px;
 }
 
 label {
@@ -55,5 +33,36 @@ label {
 
 input[type="text"],
 input[type="email"] {
-  height: 25px;
+  height: 30px;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form .description {
+    width: 50%;
+    margin: -35px;
+    font-size: 20px;
+  }
+
+  .formList {
+    margin: 30px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    height: 25px;
+  }
+
+  textarea {
+    width: 300px;
+    height: 150px;
+  }
 }

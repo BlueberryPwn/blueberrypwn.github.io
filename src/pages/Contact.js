@@ -20,13 +20,13 @@ export const Contact = () => {
         (result) => {
           console.log(result.text);
           alert("Message sent!");
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
           alert("ERROR: Message couldn't be sent. Please try again.");
         }
       );
-    form.current.reset();
   };
 
   return (
@@ -34,9 +34,7 @@ export const Contact = () => {
       <div className="title">
         <h1>Contact Form</h1>
         <div className="description">
-          <p>
-            Wish to discuss any oppurtunities? Feel free to send me a message!
-          </p>
+          <p>Wish to discuss any oppurtunities? Send me a message!</p>
         </div>
       </div>
       <form ref={form} onSubmit={sendEmail}>
