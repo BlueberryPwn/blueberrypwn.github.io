@@ -13,27 +13,13 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Internships at Postnord, Västerås
-          </h3>
-          <p>
-            Interned at Postnord twice. During my first internship I got to sort
-            letters as well as newspapers alongside a supervisor. At my second
-            internship I got to sort as well as deliver letters together with a
-            mailman.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="2015"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Ö&B, Västerås</h3>
+          <h3 className="vertical-timeline-element-title">
+            Ö&B, Västerås, Sweden
+          </h3>
           <p>
             I worked at Ö&B for three weeks during the summer break. I handled
             several tasks such as refilling the shelves and the store warehouse,
@@ -48,13 +34,13 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Wijkmanska, upper secondary school, Västerås
+            Wijkmanska, upper secondary school, Västerås, Sweden
           </h3>
           <p>
             I studied the technology programme at Wijkmanska specialising in
-            industrial engineering. Here I got the chance to write some desktop
-            applications in Java, program a circuit board and also an industrial
-            robot later on.
+            industrial engineering. Here I got to write some desktop
+            applications in Java, program both a circuit board and an industrial
+            robot later on as part of projects and more.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -64,7 +50,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Chas Academy, higher vocational education, Stockholm
+            Chas Academy, higher vocational education, Stockholm, Sweden
           </h3>
           <p>
             I'm currently studying full stack development specialising in .NET

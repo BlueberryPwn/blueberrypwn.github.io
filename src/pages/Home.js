@@ -9,11 +9,11 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I'm Nshoan!</h2>
+        <h2>Hi, I'm Nshoan.</h2>
         <div className="prompt">
           <p>
-            Aspiring full stack developer looking to create and learn new
-            things!
+            Aspiring full stack developer looking to learn and take on new
+            challenges!
           </p>
           <Tooltip title="Visit my GitHub profile!">
             <IconButton aria-label="visit">
