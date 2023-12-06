@@ -1,0 +1,68 @@
+.form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .description {
+  margin: -20px;
+  padding: 10px;
+}
+
+.formList {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  display: grid;
+  gap: 5px;
+  padding: 20px;
+}
+
+label {
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+input[type="submit"] {
+  font-size: 15px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form .description {
+    width: 50%;
+    margin: -35px;
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    height: 25px;
+  }
+
+  input[type="submit"] {
+    font-size: 20px;
+  }
+}
