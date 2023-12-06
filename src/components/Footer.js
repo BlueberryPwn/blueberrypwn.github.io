@@ -10,21 +10,23 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <Tooltip title="Visit my GitHub profile!">
-          <IconButton aria-label="visit">
-            <GitHubIcon
-              onClick={() =>
-                window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
-              }
-            />
+          <IconButton
+            aria-label="visit"
+            onClick={() =>
+              window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
+            }
+          >
+            <GitHubIcon />
           </IconButton>
         </Tooltip>
         <Tooltip title="Visit my LinkedIn profile!">
-          <IconButton aria-label="visit">
-            <LinkedInIcon
-              onClick={() =>
-                window.open("https://www.linkedin.com/in/nshoan-a-853878208/")
-              }
-            />
+          <IconButton
+            aria-label="visit"
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/nshoan-a-853878208/")
+            }
+          >
+            <LinkedInIcon />
           </IconButton>
         </Tooltip>
       </div>

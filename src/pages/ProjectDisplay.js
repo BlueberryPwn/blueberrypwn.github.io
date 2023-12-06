@@ -17,8 +17,11 @@ function ProjectDisplay() {
         <b>Skills:</b> {project.skills}
       </p>
       <Tooltip title="Visit the repository of this project!">
-        <IconButton aria-label="visit">
-          <GitHubIcon onClick={() => window.open(project.link)} />
+        <IconButton
+          aria-label="visit"
+          onClick={() => window.open(project.link)}
+        >
+          <GitHubIcon />
         </IconButton>
       </Tooltip>
     </div>
