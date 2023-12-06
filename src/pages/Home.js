@@ -1,24 +1,24 @@
 import "../styles/Home.css";
 import React from "react";
-import Tooltip from "@material-ui/core/Tooltip";
-import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Tooltip from "@mui/material/Tooltip";
+import IconButton from "@mui/material/IconButton";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I'm Nshoan.</h2>
+        <h2>Hi, I'm Nshoan</h2>
         <div className="prompt">
           <p>
             Aspiring full stack developer looking to learn and take on new
-            challenges!
+            challenges.
           </p>
           <Tooltip title="Visit my GitHub profile!">
             <IconButton aria-label="visit">
               <GitHubIcon
-                onClick={(event) =>
+                onClick={() =>
                   window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
                 }
               />
@@ -27,7 +27,7 @@ function Home() {
           <Tooltip title="Visit my LinkedIn profile!">
             <IconButton aria-label="visit">
               <LinkedInIcon
-                onClick={(event) =>
+                onClick={() =>
                   window.open("https://www.linkedin.com/in/nshoan-a-853878208/")
                 }
               />
