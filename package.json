@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material/": "^5.14.19",
@@ -21,7 +22,8 @@
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.5",
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
-    "@babel/preset-env": "^7.23.5"
+    "@babel/preset-env": "^7.23.5",
+    "install-peers": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
