@@ -40,6 +40,8 @@ export const Contact = () => {
           <input type="text" required name="user_name" />
           <label>Email</label>
           <input type="email" required name="user_email" />
+          <label>Subject</label>
+          <input type="text" required name="subject" />
           <label>Message</label>
           <textarea name="message" required />
           <Button variant="contained" input type="submit">
