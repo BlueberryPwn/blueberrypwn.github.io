@@ -13,18 +13,13 @@
   align-items: center;
 }
 
-.form .description {
-  margin: -20px;
-  padding: 10px;
-}
-
 .formList {
   justify-content: center;
   align-items: center;
   height: auto;
   display: grid;
   gap: 5px;
-  margin: 50px;
+  padding: 10px;
 }
 
 label {
@@ -33,34 +28,16 @@ label {
 
 input[type="text"],
 input[type="email"] {
-  height: 30px;
+  height: 25px;
 }
 
 textarea {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
+  resize: none;
 }
 
 @media only screen and (max-width: 600px) {
-  .form .description {
-    width: 50%;
-    margin: -35px;
-    font-size: 20px;
-  }
-
-  .formList {
-    margin: 30px;
-  }
-
-  label {
-    font-size: 20px;
-  }
-
-  input[type="text"],
-  input[type="email"] {
-    height: 25px;
-  }
-
   textarea {
     width: 300px;
     height: 150px;

@@ -33,9 +33,6 @@ export const Contact = () => {
     <div className="form">
       <div className="title">
         <h1>Contact Form</h1>
-        <div className="description">
-          <p>Wish to discuss any oppurtunities? Send me a message!</p>
-        </div>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className="formList">
