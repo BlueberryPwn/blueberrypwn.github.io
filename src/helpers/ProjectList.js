@@ -10,7 +10,7 @@ export const ProjectList = [
     name: "Anonymous forum",
     image: Proj1,
     imageDesc: "Anonymous forum",
-    skills: "C#, CSS, HTML, SQL",
+    skills: "C#, HTML, SQL",
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Anonymous-forum",
   },
   {
@@ -42,9 +42,9 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Mini_project_SQL",
   },
   {
-    name: "Number guessing game",
+    name: "Number guessing",
     image: Proj6,
-    imageDesc: "Number guessing game",
+    imageDesc: "Number guessing",
     skills: "CSS, HTML, JavaScript",
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/NumberGuessingGame",
   },
