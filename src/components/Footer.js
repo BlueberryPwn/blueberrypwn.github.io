@@ -30,6 +30,7 @@ function Footer() {
           </IconButton>
         </Tooltip>
       </div>
+      <p>nshoan.netlify.app</p>
     </div>
   );
 }
