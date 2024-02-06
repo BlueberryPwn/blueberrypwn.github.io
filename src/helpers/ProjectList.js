@@ -7,6 +7,7 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
+    id: 0,
     name: "Anonymous forum",
     image: Proj1,
     imageDesc: "Anonymous forum",
@@ -14,6 +15,7 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Anonymous-forum",
   },
   {
+    id: 1,
     name: "Movie database",
     image: Proj2,
     imageDesc: "Movie database",
@@ -21,6 +23,7 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Movie-system",
   },
   {
+    id: 2,
     name: "Asynchronous car race",
     image: Proj3,
     imageDesc: "Asynchronous car race",
@@ -28,6 +31,7 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Biltavlingen",
   },
   {
+    id: 3,
     name: "Bank application",
     image: Proj4,
     imageDesc: "Bank application",
@@ -35,6 +39,7 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Banken",
   },
   {
+    id: 4,
     name: "Project time tracker",
     image: Proj5,
     imageDesc: "Project time tracker",
@@ -42,6 +47,7 @@ export const ProjectList = [
     link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Mini_project_SQL",
   },
   {
+    id: 5,
     name: "Number guessing",
     image: Proj6,
     imageDesc: "Number guessing",

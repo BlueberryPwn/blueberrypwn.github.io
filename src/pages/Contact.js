@@ -44,7 +44,7 @@ export const Contact = () => {
           <input type="text" required name="subject" />
           <label>Message</label>
           <textarea name="message" required />
-          <Button variant="contained" input type="submit">
+          <Button variant="contained" type="submit">
             Send Message
           </Button>
         </div>
