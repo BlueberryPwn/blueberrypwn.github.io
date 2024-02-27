@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop />
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
