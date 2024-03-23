@@ -30,7 +30,7 @@ function Footer() {
           </IconButton>
         </Tooltip>
       </div>
-      <p>nshoan.netlify.app</p>
+      <p>chasacademy-nshoan-abdlwafa.github.io</p>
     </div>
   );
 }
