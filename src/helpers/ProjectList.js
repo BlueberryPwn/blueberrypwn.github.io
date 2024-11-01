@@ -12,7 +12,7 @@ export const ProjectList = [
     image: Proj1,
     imageDesc: "Anonymous forum",
     skills: "C#, HTML, SQL",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Anonymous-forum",
+    link: "https://github.com/BlueberryPwn/Anonymous-forum",
   },
   {
     id: 1,
@@ -20,7 +20,7 @@ export const ProjectList = [
     image: Proj2,
     imageDesc: "Movie database",
     skills: "C#, SQL",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Movie-system",
+    link: "https://github.com/BlueberryPwn/Movie-system",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const ProjectList = [
     image: Proj3,
     imageDesc: "Asynchronous car race",
     skills: "C#",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Biltavlingen",
+    link: "https://github.com/BlueberryPwn/Biltavlingen",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const ProjectList = [
     image: Proj4,
     imageDesc: "Bank application",
     skills: "C#",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Banken",
+    link: "https://github.com/BlueberryPwn/Banken",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const ProjectList = [
     image: Proj5,
     imageDesc: "Project time tracker",
     skills: "C#, SQL",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/Mini_project_SQL",
+    link: "https://github.com/BlueberryPwn/Mini_project_SQL",
   },
   {
     id: 5,
@@ -52,6 +52,6 @@ export const ProjectList = [
     image: Proj6,
     imageDesc: "Number guessing",
     skills: "CSS, HTML, JavaScript",
-    link: "https://github.com/ChasAcademy-Nshoan-Abdlwafa/NumberGuessingGame",
+    link: "https://github.com/BlueberryPwn/NumberGuessingGame",
   },
 ];

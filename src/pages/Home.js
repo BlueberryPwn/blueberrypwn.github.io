@@ -18,9 +18,7 @@ function Home() {
           <Tooltip title="Visit my GitHub profile!">
             <IconButton
               aria-label="visit"
-              onClick={() =>
-                window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
-              }
+              onClick={() => window.open("https://github.com/BlueberryPwn")}
             >
               <GitHubIcon />
             </IconButton>

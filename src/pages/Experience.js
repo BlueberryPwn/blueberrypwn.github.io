@@ -24,7 +24,7 @@ function Experience() {
             I worked at Ö&B for three weeks during the summer break. I handled
             several tasks such as refilling the shelves and the store warehouse,
             both alone and alongside colleagues. I also helped out with removing
-            the warehouse waste and answered customers' questions.
+            the warehouse waste and answering customers' questions.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -53,11 +53,11 @@ function Experience() {
             Chas Academy, higher vocational education, Stockholm, Sweden
           </h3>
           <p>
-            I'm currently studying full stack development specialising in .NET
-            at Chas Academy in Stockholm. During my time here I've learned to
-            write in several languages such as C#, JavaScript and SQL.
-            Furthermore, I have gained experience in Git, APIs, React, agile
-            methodologies such as Scrum, TDD and more.
+            I studied full stack development specialising in .NET at Chas
+            Academy in Stockholm. During my time there I learned to write in
+            several languages such as C#, JavaScript and SQL. Furthermore, I
+            have gained experience in Git, APIs, React, agile methodologies such
+            as Scrum, TDD and more.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

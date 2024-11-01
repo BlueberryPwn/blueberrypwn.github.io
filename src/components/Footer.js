@@ -12,9 +12,7 @@ function Footer() {
         <Tooltip title="Visit my GitHub profile!">
           <IconButton
             aria-label="visit"
-            onClick={() =>
-              window.open("https://github.com/ChasAcademy-Nshoan-Abdlwafa")
-            }
+            onClick={() => window.open("https://github.com/BlueberryPwn")}
           >
             <GitHubIcon />
           </IconButton>
@@ -30,7 +28,7 @@ function Footer() {
           </IconButton>
         </Tooltip>
       </div>
-      <p>chasacademy-nshoan-abdlwafa.github.io</p>
+      <p>https://blueberrypwn.github.io/</p>
     </div>
   );
 }
